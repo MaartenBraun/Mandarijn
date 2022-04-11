@@ -1,0 +1,104 @@
+body {
+    background-image: url("istockphoto-1151367041-170667a.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(59, 235, 32) ;font-family: myfont;
+    cursor: pointer;
+    background-color:rgb(233, 160, 43);
+    margin: 3px;
+}
+.border1 {
+    border: 6px solid;
+    border-radius: 20px;
+    margin:50px 15% 0px 15%;
+    padding: 10px 10px 10px 10px;
+    background-color: darkorange; opacity: .9;
+}
+h1 {
+    text-shadow: 2px 2px #042b12;
+    margin: 10px,10px,10px,10px;
+    padding: .5em;
+    font-size: 550%;
+    
+  }
+@media (min-width: 768px) {
+  body  {color:chartreuse; 
+ } 
+
+}
+/*h1 text changes colorslightly at 1024px width*/
+@media (min-width:1024px) {
+  body {color:rgb(75, 136, 13)}
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(240, 186, 24);
+    color: black;
+    text-align: center;
+    font: 1em sans-serif;
+}
+.p1 {
+    margin-left: 50%;
+    margin-right: 20%;
+    text-shadow: 1px 1px rgb(9, 195, 71);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(17, 85, 6);
+    font-size: 120%;
+    border: 6px solid;
+    border-radius: 20px;
+    border-color: rgb(59, 235, 32);
+    margin:50px 15% 0px 15%;
+    padding: 10px 10px 10px 10px;
+    background-color: darkorange; opacity: .9;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+    opacity: .9;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a { 
+      display: block;
+    color: rgb(163, 241, 184);
+    text-align: center;
+    padding: 8px;
+    text-decoration: none; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  li a:hover {
+    background-color: #de7112;
+    color: black;
+  }
+  audio { 
+    width: 150px; 
+    height: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(82, 4, 4, 0.4);
+    border-radius: 90px;
+    transform: scale(0.7);
+  }
+  .pegatina {
+    color:rgb(17, 85, 6);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 6px solid;
+    border-color: rgb(43, 199, 19);
+    border-radius: 15px;
+    background-color: darkorange;
+    opacity: .9;
+    padding: 7px;
+    text-shadow: 1px 1px rgb(9, 195, 71);
+  }

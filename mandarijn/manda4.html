@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>de mandarijn</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="manda4.css">
+    </head>
+<!--top-side navigationbar-->
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Tangerine#:~:text=The%20tangerine%20is%20a%20type%20of%20orange.%20Its,also%20treated%20as%20a%20synonym%20of%20Citrus%20deliciosa.">Wikipedia</a></li>
+    <li><a href="manda2.html">Music</a></li>
+    <li><a href="manda3.html">Video</a></li>
+    <li><a href="manda4.html">Questionnaire</a></li>
+</ul>
+<header>
+    <h1 class="p1"><center>Tell us about you, and your tangerine preferences</center></h1>
+</header>
+<body>
+        <form class="p1" name="contact" method="POST" data netlify="true">
+            <div>
+        <label>First name.....</label>
+        <input type="text" name="name" required/>
+            </div>
+            <div>
+        <label>Last name......</label>
+        <input type="text" name="lname"/>
+            </div>
+            <div>
+        <label>email..............</label>
+        <input type="email" name="email"/>
+            </div>
+            <div>
+        <label>Phonenumber</label>
+        <input type="tel" name="phone"/>
+            </div>
+            <div>
+        <label>Date of birth...</label>
+        <input type="date" name="bday"/>
+            </div>
+        <hr>
+        <a>Gender</a><br>
+        <div>
+        <label>Male....</label>
+        <input type="radio" name="geslacht" value="man"/>
+        </div>
+        <div>
+        <label>Female</label>
+        <input type="radio" name="geslacht" value="vrouw"/>
+        </div>
+        <div>
+        <label>X.........</label>
+        <input type="radio" name="geslacht" value="onzijdig"/>
+        </div>
+        <hr>
+        <a>What's your favorite tangerine?</a><br>
+        <div>
+        <label>Clementine</label>
+        <input type="checkbox" name="clementine"/>
+        </div>
+        <div>
+            <label>Cleopatra</label>
+        <input type="checkbox" name="cleopatra"/>
+        </div>
+        <div>
+        <label>Common</label>
+        <input type="checkbox" name="common"/>
+        </div>
+        <div>
+        <label>Satsuma Wase</label>
+        <input type="checkbox" name="satsuma wase"/>
+        </div>
+        <hr>
+        <label for="favcolor"> What color do you prefer your tangerines?</label>
+        <div>
+        <input type="color" id="favcolor" name="favcolor" value="#E6B328">
+        </div>
+        <hr>
+        <div>
+        <label>Share your deepest thoughts on tangerines</label>
+        <textarea name="bericht"></textarea>
+        </div>
+        <input type="hidden" name="hidden" value="hi"/>
+        
+        <hr>
+        <div>
+        <label>Upload your tangerine-recipe</label>
+        <input type="file" name="recept"/>
+        </div>
+        <hr>
+        <div>
+        <label>Your tangerine-site?</label>
+        <input type="url" name="website"/>
+        </div>
+        <hr>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br>
+      </form>
+    
+
+
+</body>
+<footer>
+    <div class="footer">
+        <p>&copy; Maarten Braun 2022</p>
+        <audio controls src="tropical-sun-all-good-folks-main-version-02-05-8223.mp3" loop="true" autoplay="true">No music? crappy browser!</audio>
+        
+       
+    </div>
+    </footer>
+</html>
